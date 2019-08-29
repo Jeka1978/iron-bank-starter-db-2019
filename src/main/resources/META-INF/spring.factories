@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = db.com.gameofthrones.ironbankstarter.IronBankStarterConfig
+
+
+db.com.gameofthrones.ironbankstarter.Abc = 12
