@@ -20,6 +20,11 @@ public class IronBankStarterConfig {
     public IronBankRavenApplicationListener ravenApplicationListener(){
         return new IronBankRavenApplicationListener();
     }
+
+    @Bean
+    public FrontendControllerHandler frontendControllerAspect(){
+        return new FrontendControllerHandler();
+    }
 }
 
 
